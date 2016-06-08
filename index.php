@@ -18,7 +18,7 @@
     <li>Github</li>
   </ul>
   <hr/>
-  <?= 'Salut' ?>
+  <?= 'Salut !' ?>
 </section>
 
 </body>
