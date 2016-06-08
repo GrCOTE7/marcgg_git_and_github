@@ -1,7 +1,8 @@
 body {
     background-color : cornsilk;
+    font-size        : 1.4em;
 }
 
-ht {
+hr {
     border : 3px solid blue;
 }
