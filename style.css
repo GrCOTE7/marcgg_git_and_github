@@ -3,6 +3,5 @@ body {
 }
 
 ht {
-    border : 3px;
-    color  : blue;
+    border : 3px solid blue;
 }
