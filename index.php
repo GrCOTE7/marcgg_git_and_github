@@ -19,6 +19,8 @@
   </ul>
   <hr/>
   <?= 'Salut !' ?>
+
+  <a href="">Page de la Partie 3 Activité</a>
 </section>
 
 </body>
