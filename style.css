@@ -1,8 +1,36 @@
 body {
     background-color : cornsilk;
     font-size        : 1.4em;
+    font-family      : Comic Sans MS, arial, serif;
 }
 
 hr {
     border : 3px solid blue;
 }
+
+header {
+    text-align  : center;
+    font-weight : normal;
+}
+
+header h1 {
+    margin    : 0;
+    font-size : 1.7em;
+}
+
+article h1 {
+    font-weight : normal;
+}
+
+article p, footer p {
+    margin-top   : 0;
+    margin-right : 5%;
+    margin-left  : 5%;
+    text-align   : justify;
+}
+
+.non-justifie {
+    text-align : left;
+}
+
+

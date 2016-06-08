@@ -1,29 +1,73 @@
-<:DOCTYPE html></:DOCTYPE>
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>GIT ou Grandir l'Intelligence de Tous</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
+
+
 <body>
-<head>
+
+<header>
     <h1>GIT ou Grandir l'Intelligence de Tous</h1>
-</head>
+    <p><em>Exercice 3 du tutoriel OpenClassroom de marcgg</em></p>
+</header>
 
-<section>
+<article>
     <h1>Qu'est-ce qu'un <strong>commit</strong> ?</h1>
-    <p></p>
-</section>
+    <p>Le fait d'enregistrer dans un dépôt un ou plusieurs fichiers (Quels que soient leurs types, et y compris les
+        dossiers), modifiés depuis le précédent commit.</p>
+    <p>De préférence, on privilégiera un dépôt délocalisé, voire distant pour plus de
+        possibilités de partages, et de collaboration.</p>
+    <p>Notons enfin qu'un commit gère également les suppressions de fichiers et dossiers (Afin de garder une parfaite
+        cohérence entre le dépôt, et notre dossier de travail.</p>
+    <p>En fait, chaque commit peut-être considéré come une véritable version, ou étape, de l'avancée d'un projet.</p>
 
-<section>
-    <h1>à quoi sert la commande <strong>git log</strong>strong> ?</h1>
-    <p></p>
-</section>
+</article>
 
-<section>
+<article>
+    <h1>À quoi sert la commande <strong>git log</strong> ?</h1>
+    <p>Elle permet d'obtenir un listing très précis et complet des dernières opérations réalisées dans le dépôt
+        (Concerne donc très souvent les commits précédemment réalisés, mais aussi les opérations de merge, etc...)</p>
+    <p>Ce listing se présente dans l'ordre chronologique inversé, ce qui permet d'y trouver en premier et donc très
+        rapidement, les toutes dernières opérations. Chacune de celles-ci sont idéntifiées par un code unique (Appelé
+        SHA) et précise l'auteur du commit et son email (Donc le moyen éventuellement de le joindre si nécessaire), la
+        date et l'heure de la création du commit, et enfin, le message qui aura été saisi lors du commit.</p>
+</article>
+
+<article>
     <h1>Qu'est-ce qu'une <strong>branche</strong> ?</h1>
-    <p></p>
-</section>
+    <p>Une branche peut-être assimilées à des versions parallèles d'un même projet. Lors de l'initialisation du dépôt,
+        la première branche est par convention, nommée 'master'</p>
+    <p>Pour un développement spécifique, une nouvelle branche peut être crée, et être nommée selon l'objet de ce
+        développement (En respectant cependant une certaine convention de nommage (Pas d'espace par exemple)).</p>
+    <p>Ce déploiement permet toute liberté de développement, dans cette autre partie du dépôt, sans corrompre la
+        stabilité et solidité de la branche master. Ainsi, à la finition du développement spécifique, l'auteur de
+        celui-ci pourra proposer au propriétaire du dépôt original (Parfois, ces deux là ne font qu'un), de fusionner
+        ses travaux avec la base principale (master)</p>
+    <p>Ainsi, toute autre personne qui récupérera à son tour le dépôt, aura toujours la version la plus à jour, la plus
+        optimale en principe, bénéficiant alors aussi des derniers progrès du développement de tous...</p>
+</article>
+<footer>
+    <h1>Conclusion</h1>
+    <p>Ces 3 points abordés ne sont que quelques uns parmis les outils que Git met à la disposition de tous... Mais
+        complétés par d'autres, et couplés à des plate-formes de plus en plus évoluées (Dont l'une des plus célèbres est
+        GitHub), permet à tous éventuellement, de collaborer sur une infinité de projets... Et si aujourd'hui ceux-ci
+        sont principalement du ressort du domaine informatique, et en particulier, de celui du développement logiciel,
+        il est néansmoins très intéressant de concevoir que ce fonctionnement global, sorte de collaboration sans
+        coordination, peut s'appliquer dans de nombreux domaines tout autre....</p>
 
+    <p>En conclusion, Git est une véritable révolution, sans doute aussi importante que l'arrivée de l'internet dans nos
+        foyers à son époque... Et que c'est avant tout, un outil dont je crains que personne n'en aie pas encore déceler
+        vraiment toute la puissance... Alors, gittez, gitons...! @ foisons !</p>
+    <p>GrCOTE7</p>
+    <p class="non-justifie">P.S.: Ce fichier se trouve sur... Un dépôt Git !!! ;-) :
+        <a target="_blank" href="https://github.com/GrCOTE7/marcgg_git_and_github/tree/master">https://github.com/GrCOTE7/marcgg_git_and_github/tree/master</a>
+    </p>
+</footer>
 </body>
+
 </html>
 

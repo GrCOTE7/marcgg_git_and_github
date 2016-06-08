@@ -20,7 +20,8 @@
   <hr/>
   <?= 'Salut !' ?>
 
-  <a href="">Page de la Partie 3 Activité</a>
+  <a target="_blank" href="https://github.com/GrCOTE7/marcgg_git_and_github/tree/partie-3-activite">Page de la Partie 3
+    Activité</a>
 </section>
 
 </body>
