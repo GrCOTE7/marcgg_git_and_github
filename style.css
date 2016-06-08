@@ -2,6 +2,7 @@ body {
     background-color : cornsilk;
 }
 
-hr {
-    color : red;
+ht {
+    border : 3px;
+    color  : blue;
 }
